@@ -10,7 +10,7 @@ int main()
     printf("Enter an integer: ");
     scanf("%d",&a);
     printf("a = %d\t",a);
-    a=a|mask;
+    a=a|mask;                                                   //a=30(0001 1110) and mask=0x20(0010 0000)  a|mask=62(0011 1110)
     printf("\nAfter switching on 5th bit, the value of a is: \n");
     printf("a= %d\t",a);
 }
