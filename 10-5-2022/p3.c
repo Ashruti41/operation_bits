@@ -1,4 +1,8 @@
-//
+//function that rotetes bits by n positions.
+/*initial pattern: 0000 0000 0000 1101
+After rotating right by 4 bits: 1101 0000 0000 0000
+*/
+
 
 #include<stdio.h>
 int main()
@@ -43,3 +47,10 @@ rotate_left(int num, int n)
     }
     return num;
 }
+
+/*output:
+Enter number in hexadecimal : 00011101
+Enter number of positions to be rotated : 1
+Number after right rotation is : 95ae
+Number after left rotation is : 12b5d
+*/
